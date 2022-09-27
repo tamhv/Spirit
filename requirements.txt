@@ -1,6 +1,6 @@
 Django>=3.2
 django-haystack>=3.0
-elasticsearch<8.0,>=7.0  # django-haystack only supports ES<8 (see "https://github.com/django-haystack/django-haystack/blob/master/setup.py")
+whoosh==2.7.4
 mistune==0.8.4
 Pillow>=9.0
 django-infinite-scroll-pagination>=1.2

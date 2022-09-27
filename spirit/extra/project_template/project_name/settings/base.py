@@ -118,7 +118,7 @@ AUTHENTICATION_BACKENDS = [
 
 HAYSTACK_CONNECTIONS = {
     'default': {
-        "ENGINE": "haystack.backends.elasticsearch_backend.ElasticsearchSearchEngine",
+        'ENGINE': 'haystack.backends.whoosh_backend.WhooshEngine',
         'PATH': os.path.join(BASE_DIR, 'st_search'),
     },
 }
